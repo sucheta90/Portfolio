@@ -1,0 +1,36 @@
+
+.project--snippet{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    margin-bottom: 5px;
+} 
+
+#digi_card{
+    background-image: url('../images/digi_card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#survey_form{
+    background-image: url('../images/SurveyForm_snippet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#digi_card, #survey_form{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3), 0 8px 22px 0 rgba(0,0,0, 0.6);
+}
+.project--tile{
+    position: relative;
+    width: fit-content;
+    margin: 10px; 
+    margin-bottom: 15px;  
+}
+.project-btn{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: center;  
+}
+

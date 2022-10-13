@@ -1,0 +1,56 @@
+.hero--content{
+  height: 100%;
+  
+}
+.content-container{
+  margin-top: 100px;
+}
+
+.main-heading{
+  font-weight: 500;
+  font-size: 40px;
+  
+}
+.main-title{
+  font-size: 25px;
+  font-weight: 500;
+}
+.main-heading, .main-title{
+  text-shadow: -5px 2px rgba(0,0,0, 2);
+  
+}
+#welcome--message{
+  font-size: 3em;
+  margin-top: 100px;
+  font-weight: 900;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: -5px 2px rgba(0,0,0, 2);
+  animation: slideIn 5s;
+}
+
+ @keyframes slideIn {
+    from{
+      transform: translateX(-100%)
+    }
+    to{
+      transform: translateX(0);
+    }
+ }
+
+ .social--link{
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
+  text-shadow: -5px 2px rgba(0,0,0, 2) ;
+  text-rendering: geometricPrecision;
+}
+.contact{
+  position: absolute;
+  bottom: 40px;
+
+}
+.heading{
+  font-size: 20px;
+  text-shadow: -5px 2px rgba(0,0,0, 2);
+}

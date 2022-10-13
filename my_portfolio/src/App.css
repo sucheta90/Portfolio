@@ -1,38 +1,48 @@
-.App {
+
+*{
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  color:#ced4da;
+}
+
+body, html{
+  background: linear-gradient(90deg, #212529,#495057,#adb5bd);
+  background-repeat: repeat;
+  background-size: contain;
+  color: inherit;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #212529;
+  font-size: small;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  background-color: #212529  ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar > ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  list-style: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.page--title{
+  text-align: center;
+  font-weight: 700;
+  text-shadow: -2px 2px rgba(0,0,0, 2);
+  margin-top: 20px;
+  
+  
+}
+.container{
+  margin-top: 30px;
+  border: 1px solid transparent;
+  box-shadow: 5px 10px rgba(0,0,0, 0);
+  border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
