@@ -12,7 +12,7 @@ export default function Hero(){
         <div className='hero--content' >
             <div className='content-container profile-box'>
                 
-                <img src={image} className='profile--image' alt='my_photo'/>
+                <img src={image} className='profile--image img-fluid' alt='my_photo'/>
                 <h1>Hello! I am</h1>
                 <h1 className='main-heading'>Sucheta Mukherjee</h1>
                 <h5 className='main-title'>Frontend Web Developer</h5>
