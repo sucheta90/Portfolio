@@ -3,7 +3,7 @@
   
 }
 .content-container{
-  margin-top: 80px;
+  margin: 10%;
 }
 
 .main-heading{
@@ -53,7 +53,7 @@
 }
 .contact{
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
 
 }
 .profile--image{

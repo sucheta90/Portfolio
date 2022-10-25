@@ -18,9 +18,9 @@ export default function Hero(){
                 <h5 className='main-title'>Frontend Web Developer</h5>
                 {/* <div id='welcome--message'>Welcome to my page </div> */}
             </div>
-            <aside>
-                <Contact />
-            </aside>
+            
+            <Contact />
+        
         </div>
         
     </>
