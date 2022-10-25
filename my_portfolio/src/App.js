@@ -14,10 +14,10 @@ import Resume from './resume/Sucheta_Mukherjee_Resume.PDF'
 
 
 function App() {
-
+  
   return (
-    <>
-   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <>
+   <nav className="navbar navbar-expand-lg navbar-light bg-light">
    {/* <span className='logo-item-1'>S</span><span className='logo-item-2'>M</span> */}
 
         <div className="container-fluid">
@@ -35,25 +35,25 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+              <li className="nav-item" >
+                <Link  className="nav-link" aria-current="page" to="/">
                   HOME
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" >
                 <Link
                   className="nav-link"
                   to="./About"
                 >
-                  ABOUT
+                  ABOUT 
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" >
                 <Link className="nav-link" to="./Projects">
-                  WORKED ON
+                  MY WORK
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" >
                 <Link className="nav-link" to={Resume} download='resume' target='_blank'>
                   DOWNLOAD RESUME
                 </Link>

@@ -3,20 +3,20 @@
   
 }
 .content-container{
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .main-heading{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   
 }
 .main-title{
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .main-heading, .main-title{
-  text-shadow: -5px 2px rgba(0,0,0, 2);
+  /* text-shadow: -6px 3px 6px rgba(0,0,0, 0.5); */
   
 }
 #welcome--message{
@@ -24,7 +24,7 @@
   margin-top: 100px;
   font-weight: 900;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-shadow: -5px 2px rgba(0,0,0, 2);
+  text-shadow: -6px 3px 8px rgba(0,0,0, 0.5);
   animation: slideIn 5s;
 }
 
@@ -42,15 +42,27 @@
   padding: 5px;
   margin: 5px;
   font-size: 30px;
-  text-shadow: -5px 2px rgba(0,0,0, 2) ;
+  text-shadow: -5px 3px 5px rgba(0,0,0, 0.5);
   text-rendering: geometricPrecision;
+}
+.social--link :hover{
+  transform: scale(1.5);
+}
+.social--link :active{
+  background-color: whitesmoke;
 }
 .contact{
   position: absolute;
   bottom: 40px;
 
 }
-.heading{
-  font-size: 20px;
-  text-shadow: -5px 2px rgba(0,0,0, 2);
+.profile--image{
+  width: 300px;
+  border-radius: 10%;
+}
+.profile-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }

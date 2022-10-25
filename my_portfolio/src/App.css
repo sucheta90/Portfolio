@@ -3,15 +3,17 @@
   box-sizing: border-box;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
-  color:#ced4da;
+  color:#023e8a;
+ 
 }
 
 body, html{
-  background: linear-gradient(90deg, #212529,#495057,#adb5bd);
+  background: linear-gradient(90deg, #fcf6bd, #e4c1f9);
   background-repeat: repeat;
-  background-size: contain;
+  background-size: 100%;
   color: inherit;
   text-align: center;
+  /* height: 100%; */
 }
 
 .footer {
@@ -20,9 +22,11 @@ body, html{
   text-align: center;
   background-color: #212529;
   font-size: small;
+  color: whitesmoke;
 }
 nav{
-  background-color: #212529  ;
+  background-color: #da95d5  ;
+  color: whitesmoke;
 }
 .navbar > ul{
   display: flex;
@@ -34,15 +38,22 @@ nav{
 .page--title{
   text-align: center;
   font-weight: 700;
-  text-shadow: -2px 2px rgba(0,0,0, 2);
-  margin-top: 20px;
+  /* text-shadow: -6px 4px 3px rgba(0,0,0, 0.5); */
+  margin-top: 50px;
+  margin-bottom: 20px;
   
   
 }
 .container{
   margin-top: 30px;
+  margin-bottom: 30px;
   border: 1px solid transparent;
   box-shadow: 5px 10px rgba(0,0,0, 0);
   border-radius: 30px;
 }
 
+p{
+  font-weight: 500;
+  font-size: 18px;
+
+}

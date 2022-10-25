@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Contact(){
     return(
         <div className='contact container-fluid text-center content'>
-            <h1 className="heading">Let us connect</h1>
+            {/* <h1 className="heading">Let us connect</h1> */}
             <div className='row'>
                 <div className='col'>   
                     <a className='social--link' href="https://github.com/sucheta90" rel="noreferrer" target='_blank'><i className="fa-brands fa-square-github"></i> </a>
