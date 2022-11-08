@@ -17,7 +17,7 @@ function App() {
   
   return (
   <>
-   <nav className="navbar navbar-expand-lg navbar-light bg-light">
+   <nav className="navbar navbar-expand-lg navbar-light bg-light px-0 px-0">
    {/* <span className='logo-item-1'>S</span><span className='logo-item-2'>M</span> */}
 
         <div className="container-fluid">

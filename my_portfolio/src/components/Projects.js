@@ -71,7 +71,7 @@ export default function Projects(props){
                 <div className="project-container">
                     <div id='travel_blog' className="project--snippet"></div>
                     <div className="description">
-                        <p> The project uses Raect App. Purpose of the project is better understanding of the use of Props. This site is due for further modifications.</p>
+                        <p> The project uses React App. Purpose of the project is better understanding of the use of Props. This site is due for further modifications.</p>
                     </div>
                     <div className="buttons">
                         <button className="btn btn-outline-light btn-sm" onClick={(e)=>{
