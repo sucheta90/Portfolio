@@ -12,7 +12,7 @@ export default function About(){
     <hr></hr>
     <section className='aboutMe'>
         
-        <p>I am a self taught webs developer from Glen Allen, Virginia. I aim at building user-friendly web applications and websites. My skills include HTML, CSS, JAVASCRIPT, REACT and Github. </p>
+        <p>I am a self taught web developer from Glen Allen, Virginia. I aim at building user-friendly web applications and websites. My skills include HTML, CSS, JAVASCRIPT, REACT and Github. </p>
         
         <p>
             I am open to new technologies and constanly learnig and enhancing my skills. I am seeking a challenging and rewarding opportunity to showcase my knowledge and would love to colaborate and work as a team. Please feel free to reach out. 

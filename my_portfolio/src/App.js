@@ -8,7 +8,7 @@ import About from './components/About'
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Resume from './resume/Sucheta_Mukherjee_Resume.PDF'
+import Resume from "./resume/Sucheta_Mukherjee_Resume (1).pdf"
 
 
 

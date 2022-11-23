@@ -23,6 +23,7 @@ body, html{
   background-color: #212529;
   font-size: small;
   color: whitesmoke;
+  height: 1.5rem;
 }
 nav{
   background-color: #da95d5  ;
@@ -38,7 +39,6 @@ nav{
 .page--title{
   text-align: center;
   font-weight: 700;
-  /* text-shadow: -6px 4px 3px rgba(0,0,0, 0.5); */
   margin-top: 50px;
   margin-bottom: 20px;
   
