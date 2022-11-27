@@ -1,11 +1,11 @@
 .project-card{
-    border: 1px solid black;
-    background-color: #9a8c98;
+   border-radius: 5%;
+    background-color: rgba(154, 140, 152, 0.4);
     width: 250px;
     text-align: center;
     display: inline-grid;
     margin-right: 20px;
-    /* color: white; */
+    /* color: #4444dd; */
     gap: 10px;
     line-height: 20px;
 }
@@ -15,6 +15,8 @@ img{
     height: 200px;
     margin: 0 auto;
     margin-top: 20px;
+    border-radius: 5%;
+    filter: drop-shadow(10px 5px 4px #9a8c98);
 }
 .description{
     width: 200px;
@@ -31,4 +33,9 @@ img{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+}
+.btn{
+    font-size: 12px;
+    font-weight: 600;
+    filter: drop-shadow(10px 5px 4px #9a8c98);
 }

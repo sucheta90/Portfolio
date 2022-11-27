@@ -4,10 +4,20 @@ import BusinessCard from "../images/digi_card.png"
 import SurveyForm from "../images/SurveyForm_snippet.png"
 
 export default function ProjectCards(props){
-   const [toggle, setToggle]= React.useState('false');
+   const [toggle, setToggle]= React.useState(false);
+   const [showMessage, setShowMessage]= React.useState("Show Info")
 
    function handleToggle(){
-    setToggle(prevState => !prevState)
+    setToggle(prevState => !prevState);
+    setShowMessage(prevSetMessage => {
+        if(prevSetMessage === 'Show Info'){
+            return prevSetMessage= 'Hide Info'
+        }
+        else {
+            return prevSetMessage = 'Show Info'
+        }
+    })
+
   }
 
 
@@ -20,11 +30,12 @@ export default function ProjectCards(props){
                 style={{visibility: toggle == true ? 'visible': 'hidden', position: toggle == true? 'relative':'absolute'}}
             >{props.description} </div>
             <div className="buttons">
-                <span><button
-                 onClick={handleToggle}
-                >Info</button></span>
+                <span><button type='button' className="btn btn-sm btn-outline-dark"
+                 onClick={handleToggle} 
+                >{showMessage}</button></span>
                 <span className="button">
                   <button
+                    type='button' className="btn btn-sm btn-outline-dark"
                     onClick={(e)=>{
                         e.preventDefault();
                         window.open(props.liveurl)}}
@@ -32,6 +43,7 @@ export default function ProjectCards(props){
                     </button></span>
                 <span className="button">
                     <button
+                    type='button' className="btn btn-sm btn-outline-dark"
                     onClick={(e)=>{
                         e.preventDefault();
                         window.open(props.githuburl)
