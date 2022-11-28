@@ -4,7 +4,7 @@
     width: 250px;
     text-align: center;
     display: inline-grid;
-    margin-right: 20px;
+    margin: 20px;
     /* color: #4444dd; */
     gap: 10px;
     line-height: 20px;
@@ -38,4 +38,10 @@ img{
     font-size: 12px;
     font-weight: 600;
     filter: drop-shadow(10px 5px 4px #9a8c98);
+}
+@media only screen and (max-width: 600px)  {
+   /* .project-card{
+    height: 20vh;
+   } */
+  
 }

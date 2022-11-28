@@ -6,18 +6,25 @@
   height: 100vh;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #212529;
 }
 
 
 .main-heading{
   font-weight: 600;
-  font-size: 40px;
-  
+  font-size: 35px;
+  text-align: center;
 }
+  
+
 .main-title{
   font-size: 25px;
   font-weight: 600;
+  text-align: center;
 }
+
 
 #welcome--message{
   font-size: 3em;
@@ -37,30 +44,12 @@
     }
  }
 
- .social--link{
-  text-decoration: none;
-  padding: 5px;
-  margin: 5px;
-  font-size: 30px;
-  text-shadow: -5px 3px 5px rgba(0,0,0, 0.5);
-  text-rendering: geometricPrecision;
-}
-.social--link :hover{
-  transform: scale(1.5);
-}
-.social--link :active{
-  background-color: whitesmoke;
-}
-.contact{
-  display: flex;
-  flex-direction: row;
-}
-.contact a{
-  padding: 1rem;
-}
+ 
 .profile--image{
   width: 300px;
-  border-radius: 10%;
+  height: 320px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 .profile-box{
   display: flex;

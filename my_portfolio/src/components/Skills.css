@@ -1,0 +1,19 @@
+.skills{
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 600;
+
+}
+.skillset span{
+    font-size: 45px;
+    filter: drop-shadow(10px 5px 4px #9a8c98);
+}
+.skillset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
