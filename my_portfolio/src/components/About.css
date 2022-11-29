@@ -1,0 +1,15 @@
+.aboutMe{
+    text-align: center;
+    line-height: 30px;
+    margin:0 auto;
+    height: 100%;
+}
+section{
+    vertical-align:middle;
+}
+section >p{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    font-weight: 500;
+}

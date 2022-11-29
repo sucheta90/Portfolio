@@ -1,0 +1,31 @@
+.skills{
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 600;
+
+}
+.skillset span{
+    font-size: 45px;
+    filter: drop-shadow(10px 5px 4px #9a8c98);
+}
+.skillset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px)  {
+    .skills{
+        transform: scale(.75);
+        margin: 5px;
+        margin-bottom: 10px;
+        padding: .5px;
+    }
+
+ }
