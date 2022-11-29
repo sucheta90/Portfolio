@@ -3,16 +3,17 @@
     background-color: rgba(154, 140, 152, 0.4);
     width: 250px;
     text-align: center;
-    display: inline-grid;
     margin: 20px;
     /* color: #4444dd; */
     gap: 10px;
     line-height: 20px;
+    display: inline-grid;
+
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 5%;
@@ -40,8 +41,9 @@ img{
     filter: drop-shadow(10px 5px 4px #9a8c98);
 }
 @media only screen and (max-width: 600px)  {
-   /* .project-card{
-    height: 20vh;
-   } */
-  
+   .project-card{
+    transform: scale(.75);
+    margin: 0;
+
+   }
 }

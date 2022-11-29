@@ -5,7 +5,7 @@ import "./About.css"
 export default function About(){
     return (
         <>
-        <div className='container-fluid'>
+        <div className='container-fluid about-page'>
             
             <h3 className='page--title'> About Myself</h3>
             <hr></hr>

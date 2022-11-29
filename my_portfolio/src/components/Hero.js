@@ -7,7 +7,7 @@ import './Hero.css'
 export default function Hero(){
     
    return (
-    < >
+    
         
         <div className='hero--content conatiner-fluid' >
             
@@ -23,7 +23,7 @@ export default function Hero(){
         
         </div>
         
-    </>
+    
    )
     
 }

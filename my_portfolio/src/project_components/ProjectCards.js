@@ -28,7 +28,6 @@ export default function ProjectCards(props){
    
     return(
         <div className=" project-card container-fluid">
-            {/* <img src={props.image === "../images/digi_card.png"? BusinessCard : props.image === "../images/SurveyForm.png"? SurveyForm : PortfolioSnippet}/> */}
             <img src={props.image=== "../images/digi_card.png"? BusinessCard : props.image=== "../images/SurveyForm_snippet.png"? SurveyForm : PortfolioSnippet }/>
             <h3 className="project-title">{props.title}</h3>
             <div className="description"
@@ -38,15 +37,25 @@ export default function ProjectCards(props){
                 <span><button type='button' className="btn btn-sm btn-outline-dark shadow-none"
                  onClick={handleToggle} 
                 >{showMessage}</button></span>
-                <span className="button">
-                  <button
-                    type='button' className="btn btn-sm btn-outline-dark shadow-none"
-                    style={{visibility: props.liveurl === 'https://suchetamukherjee.netlify.app'? 'hidden': 'visible' }}
-                    onClick={(e)=>{
-                        e.preventDefault();
-                        window.open(props.liveurl)}}
-                    >Live Demo
-                    </button></span>
+            
+            <span className="button">
+                        <button
+                        type='button' className="btn btn-sm btn-outline-dark shadow-none"
+                        onClick={(e)=>{
+                            e.preventDefault();
+                            window.open(props.liveurl)}}
+                        >Live Demo
+                    </button>
+            </span>       
+                        
+                   
+
+                
+                
+                
+
+               
+            
                 <span className="button">
                     <button
                     type='button' className="btn btn-sm btn-outline-dark shadow-none"

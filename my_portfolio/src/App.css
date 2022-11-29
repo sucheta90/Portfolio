@@ -1,14 +1,15 @@
-*{
+/* *{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-}
+  box-sizing: border-box;
+} */
+
 body,html{
   background-color: rgba(151, 157, 172, 0.3);
 }
 
 .app-main{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   background-color: rgba(151, 157, 172, 0.3);
 }
@@ -44,13 +45,6 @@ a#home.active.nav-link, a#about.active.nav-link, a#my_work.active.nav-link, a#dw
   
   
 }
-/* .container{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: 1px solid black;
-  box-shadow: 5px 10px rgba(0,0,0, 0);
-  border-radius: 30px;
-} */
 
 p{
   font-weight: 500;
@@ -62,9 +56,9 @@ p{
 
 
 @media only screen and (max-width: 600px)  {
-   body .container-fluid{
+   /* body .container-fluid{
     overflow-y: scroll;
-   }
+   } */
    
   
 }

@@ -23,14 +23,14 @@ export default function Projects(){
    )
     
     return (
-        <div className="container-fluid">
-        <h3 className="page--title">PROJECTS</h3>
-        <div className="projects container-fluid">
-            
-            {data}
-            
-        </div>  
-        <Skills />
+        <div className="container-fluid project-page">
+            <h3 className="page--title">PROJECTS</h3>
+            <div className="projects container-fluid">
+                
+                {data}
+                
+            </div>  
+            <Skills />
         </div>
     )
 }

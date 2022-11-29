@@ -4,7 +4,7 @@ import "./Skills.css"
 export default function Skills(){
     return(
         <div className='conatiner-fluid skills'>
-            <h2>TECHNOLOGIES I USE</h2>
+            <h3>TECHNOLOGIES I USE</h3>
             <div className='skillset'>
             <span><i class="fa-brands fa-html5"></i> <p>HTML</p></span>
             <span><i class="fa-brands fa-css3-alt"></i><p>CSS</p></span>
