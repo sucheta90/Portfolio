@@ -15,6 +15,7 @@ export default function Projects(){
             liveurl = {element.liveUrl}
             githuburl = {element.githubUrl}
             key= {element.title}
+            isDemoAvailable= {element.isDemoAvailable}
     
         />
     )

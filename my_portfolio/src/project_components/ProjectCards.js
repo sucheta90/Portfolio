@@ -8,7 +8,6 @@ import { isDisabled } from "@testing-library/user-event/dist/utils";
 export default function ProjectCards(props){
    const [toggle, setToggle]= React.useState(false);
    const [showMessage, setShowMessage]= React.useState("Show Info")
-   let image;
    
 
    function handleToggle(){
@@ -34,19 +33,24 @@ export default function ProjectCards(props){
                 style={{visibility: toggle? 'visible': 'hidden', position: toggle? 'relative':'absolute'}}
             >{props.description} </div>
             <div className="buttons">
-                <span><button type='button' className="btn btn-sm btn-outline-dark shadow-none"
-                 onClick={handleToggle} 
-                >{showMessage}</button></span>
-            
-            <span className="button">
+                <span>
+                    <button type='button' className="btn btn-sm btn-outline-dark shadow-none"
+                    onClick={handleToggle} 
+                    >{showMessage}</button>
+                </span>
+                {
+                    props.isDemoAvailable && 
+                    <span className="button">
                         <button
-                        type='button' className="btn btn-sm btn-outline-dark shadow-none"
-                        onClick={(e)=>{
-                            e.preventDefault();
-                            window.open(props.liveurl)}}
-                        >Live Demo
-                    </button>
-            </span>       
+                            type='button' className="btn btn-sm btn-outline-dark shadow-none"
+                            onClick={(e)=>{
+                                e.preventDefault();
+                                window.open(props.liveurl)}}    
+                            >Live Demo
+                        </button>
+                    </span>    
+                }
+                   
                         
                    
 
