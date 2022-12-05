@@ -7,7 +7,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Resume from "./resume/sucheta_mukherjee_resume.docx.pdf"
+import Resume from "./resume/Sucheta_Mukherjee.pdf"
 
 
 
