@@ -1,9 +1,5 @@
 import React from "react";
 import "./ProjectCards.css"
-import BusinessCard from "../images/digi_card.png"
-import SurveyForm from "../images/SurveyForm_snippet.png"
-import PortfolioSnippet from "../images/portfolioSnippet.png"
-import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 export default function ProjectCards(props){
    const [toggle, setToggle]= React.useState(false);
@@ -27,7 +23,7 @@ export default function ProjectCards(props){
    
     return(
         <div className=" project-card container-fluid">
-            <img src={props.image=== "../images/digi_card.png"? BusinessCard : props.image=== "../images/SurveyForm_snippet.png"? SurveyForm : PortfolioSnippet }/>
+            <img src={props.image}/>
             <h3 className="project-title">{props.title}</h3>
             <div className="description"
                 style={{visibility: toggle? 'visible': 'hidden', position: toggle? 'relative':'absolute'}}
