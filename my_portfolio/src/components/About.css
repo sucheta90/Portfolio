@@ -1,15 +1,58 @@
-.aboutMe{
-    text-align: center;
-    line-height: 30px;
-    margin:0 auto;
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2px;
+  position: relative;
+  top: 0;
+  overflow: scroll;
+  height: 100%;
+}
+.about-page hr {
+  margin-top: 0;
+  padding-top: 0;
+}
+hr {
+  border: 0.5px solid black;
+  width: 90%;
+}
+.aboutMe {
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  overflow: scroll;
+  text-align: center;
+}
+.aboutMe > p {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 3px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+  .about-page {
+    height: fit-content;
+  }
+  .aboutMe {
+    height: fit-content;
+    width: 90vw;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  .about-page p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-height: 700px) {
+  .aboutMe {
     height: 100%;
-}
-section{
-    vertical-align:middle;
-}
-section >p{
-    font-size: 16px;
-    font-family:'Times New Roman', Times, serif;
-    word-spacing: 3px;
-    font-weight: 500;
+    width: 90vw;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
 }

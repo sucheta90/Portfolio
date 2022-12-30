@@ -1,4 +1,4 @@
-.hero--content{
+.hero--content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -7,37 +7,39 @@
   height: 100%;
   padding-top: 4rem;
   padding-bottom: 5rem;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   color: #212529;
-  line-height: 27px;
+  line-height: 20px;
 }
-
-
-.main-heading{
+.hero--content h2 {
+  text-shadow: 1rem 1rem 0.7rem grey;
+}
+.main-heading {
   font-weight: 600;
   font-size: 35px;
   text-align: center;
+  text-shadow: 1rem 1rem 0.7rem grey;
 }
-  
 
-.main-title{
+.main-title {
   font-size: 25px;
   font-weight: 600;
   text-align: center;
+  text-shadow: 1rem 1rem 0.7rem grey;
 }
 
- @keyframes slideIn {
-    from{
-      transform: translateX(-100%)
-    }
-    to{
-      transform: translateX(0);
-    }
- }
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 
- 
-.profile--image{
+.profile--image {
   width: 300px;
   height: 320px;
   border-radius: 50%;
@@ -50,3 +52,17 @@
   flex-direction: column;
   align-items: center;
 } */
+@media screen and (max-width: 500px) {
+  .profile--image {
+    transform: scale(0.8);
+    transition: transform 0.4s;
+  }
+  .hero--content {
+    padding: 0;
+  }
+  .main-heading,
+  .main-title {
+    transform: scale(0.8);
+    transition: transform 0.4s;
+  }
+}
