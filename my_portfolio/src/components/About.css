@@ -6,8 +6,8 @@
   padding-top: 2px;
   position: relative;
   top: 0;
-  overflow: scroll;
   height: 100%;
+  overflow: scroll;
 }
 .about-page hr {
   margin-top: 0;
@@ -19,6 +19,7 @@ hr {
 }
 .aboutMe {
   max-width: 90vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -26,6 +27,7 @@ hr {
   align-items: center;
   overflow: scroll;
   text-align: center;
+  padding-bottom: 4rem;
 }
 .aboutMe > p {
   font-size: 1rem;
@@ -36,23 +38,30 @@ hr {
 
 @media screen and (max-width: 500px) {
   .about-page {
-    height: fit-content;
+    height: 100%;
+    transform: scale(0.8);
   }
   .aboutMe {
     height: fit-content;
     width: 90vw;
     line-height: 20px;
     padding-bottom: 10px;
+    overflow: scroll;
   }
   .about-page p {
     font-size: 0.8rem;
   }
 }
 @media screen and (max-height: 700px) {
+  .about-page {
+    height: 100%;
+    overflow: scroll;
+  }
   .aboutMe {
     height: 100%;
+    overflow: scroll;
     width: 90vw;
     line-height: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 }

@@ -59,10 +59,21 @@
   }
   .hero--content {
     padding: 0;
+    height: 100%;
+    overflow: scroll;
   }
   .main-heading,
   .main-title {
     transform: scale(0.8);
     transition: transform 0.4s;
+  }
+}
+@media screen and (max-height: 830px) {
+  .hero--content {
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+    transform: scale(0.8);
+    padding-bottom: 20px;
   }
 }

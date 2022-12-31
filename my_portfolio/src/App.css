@@ -14,11 +14,13 @@ html {
   margin: 0 auto;
   background-color: rgba(151, 157, 172, 0.3);
 }
+
 a#home.active.nav-link,
 a#about.active.nav-link,
 a#my_work.active.nav-link,
 a#dwnld_resume.active.nav-link {
   background-color: gray;
+  padding-left: 10px;
 }
 
 #logo {
@@ -56,5 +58,10 @@ p {
 @media only screen and (max-width: 600px) {
   body {
     overflow-y: scroll;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .nav-item {
+    margin-top: 2px;
   }
 }
