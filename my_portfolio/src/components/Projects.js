@@ -7,6 +7,7 @@ import BusinessCard from "../images/digi_card.png";
 import SurveyForm from "../images/SurveyForm_snippet.png";
 import PortfolioSnippet from "../images/portfolioSnippet.png";
 import TicTacToe from "../images/ticTacToe.png";
+import ExpenseTrackerDemo from "../images/expenseTrackerDemo.png";
 
 export default function Projects() {
   const data = projectData.map((element) => {
@@ -17,6 +18,8 @@ export default function Projects() {
       image = BusinessCard;
     } else if (element.id === "survey_form") {
       image = SurveyForm;
+    } else if (element.id === "expenseTrackerDemo") {
+      image = ExpenseTrackerDemo;
     }
     return (
       <ProjectCards

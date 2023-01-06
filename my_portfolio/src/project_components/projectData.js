@@ -6,9 +6,19 @@ export default [
     id: "ticTacToe",
     image: "../images/ticTacToe.png",
     description:
-      "This project is based upon the Form elements, from freeCodeCamp - Responsive Web Design. This project aims at better understanding of the HTML Form element that includes different input types.",
+      "This project is build by using HTML, CSS and JavaScript and was to get a good practice of the DOM manipulation. It is a fun two player game. It also includes a score tracker.",
     liveUrl: "https://tictactoebysucheta.netlify.app/",
     githubUrl: "https://github.com/sucheta90/Tic_Tac_Toe",
+    isDemoAvailable: true,
+  },
+  {
+    title: "Expense Tracker Demo",
+    id: "expenseTrackerDemo",
+    image: "../images/expenseTrackerDemo.png",
+    description:
+      "This project was not built from scratch. Meaning the display has been used as a template, however the logic was written by me to learn the concepts of React fucntional components, use of Props and React State Hooks.",
+    liveUrl: "https://demoexpensetrackerbysm.netlify.app/",
+    githubUrl: "https://github.com/sucheta90/ExpenseTracker",
     isDemoAvailable: true,
   },
   {
